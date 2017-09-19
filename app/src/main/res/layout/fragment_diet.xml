@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="com.prabh.cheeku.healthfit.diet">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="30dp"
+    android:padding="11dp"
+    android:textColor="@color/colorA"
+    android:text="YOU ARE OVERWEIGHT"/>
+    <ScrollView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+    <TextView
+        android:maxLines="250"
+        android:inputType="textMultiLine"
+        android:padding="11dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textSize="20dp"
+        android:text="BMI Categories
+        \nUnderweight = smaller than 18.5
+        \nNormal weight = 18.5–24.9
+        \nOverweight = 25–29.9
+        \nObesity = BMI of 30 or greater
+        \n\nYour weight is at a high level,
+  it can lead to considerable health problems.Your high body fat mass is likely to have raised your levels of blood pressure
+ and cholesterol and affected the way your body handles blood sugar.
+        \nOverweight and obesity are classified by an individual’s body mass index (BMI).
+BMI is measured by dividing a person’s weight by their height squared in metres.
+ \n\nIf your body mass index is over 25
+ then you are overweight and need to start making changes to lose weight.
+ \nThe BMI is generally used as a means of correlation between groups related by general mass and
+ can serve as a vague means of estimating adiposity
+\n\nSet yourself a target to lose 1 lb-2 lbs (0.5-1 kg) a week, regardless of to what you weigh now.
+\n\n Loosing 500 calories per day times seven days a week = 3500 calories, which is exactly what's in a pound of fat.
+\n\" />
+      </ScrollView>
+</LinearLayout>
